@@ -20,3 +20,8 @@ module.exports = (robot) ->
    	if buildEnv in envs and buildProj in projects
 	   	res.send "Building the #{buildEnv} environment for #{buildProj}!"
 
+   robot.respond /hello/i, (res) ->
+  	res.send "Hello! Lets be friends!"
+  	
+
+
