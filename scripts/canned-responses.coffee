@@ -9,7 +9,7 @@
 #
 
 module.exports = (robot) ->
-   robot.respond /build (.*) (.*)/i, (res) ->
+  robot.respond /build (.*) (.*)/i, (res) ->
 
    	buildProj = res.match[1]
    	buildEnv = res.match[2]
@@ -20,8 +20,9 @@ module.exports = (robot) ->
    	if buildEnv in envs and buildProj in projects
 	   	res.send "Building the #{buildEnv} environment for #{buildProj}!"
 
-   robot.respond /hello/i, (res) ->
-  	res.send "Hello! Lets be friends!"
-  	
+  robot.respond /hello/i, (res) ->
+
+    res.send "Hello! Lets be friends!"
+
 
 
