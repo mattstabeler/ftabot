@@ -24,10 +24,10 @@ module.exports = (robot) ->
 
     res.send "Hello! Lets be friends!"
 
-  robot.respond /agile/i, (res) ->
+  robot.hear /agile/i, (res) ->
 
     res.send "Are you sure it's not WAGILE?!"
 
-  robot.respond /scrum/i, (res) ->
+  robot.hear /scrum/i, (res) ->
 
-    res.send "Preparing for SCRUMerfall"
+    res.send "Preparing for SCRUMerfall..."
