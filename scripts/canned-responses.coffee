@@ -22,11 +22,17 @@ module.exports = (robot) ->
 
   robot.respond /hello/i, (res) ->
 
-    res.send "Hello! Lets be friends!"
+    res.send "Hello " + res.message.user.name + "! Lets be friends!"
 
   robot.hear /agile/i, (res) ->
 
     res.send "Are you sure it's not WAGILE?!"
+
+  robot.hear /debug/i, (res) ->
+
+    console.log(res);
+
+    res.send "Debug"
 
   robot.hear /scrum/i, (res) ->
 
