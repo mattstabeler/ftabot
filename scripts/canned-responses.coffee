@@ -37,3 +37,7 @@ module.exports = (robot) ->
   robot.hear /scrum/i, (res) ->
 
     res.send "Preparing for SCRUMerfall..."
+    
+  robot.hear /drunk/i, (res) ->
+  	
+  	res.send "Are you doosdronk?"
