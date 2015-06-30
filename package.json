@@ -1,9 +1,9 @@
 {
-  "name": "ftabot",
+  "name": "colosso",
   "version": "0.0.0",
   "private": true,
   "author": "Matt Stabeler <matt@bigbadweb.co.uk>",
-  "description": "A Simple FTA bot for fun and profit",
+  "description": "A Simple bot for fun and profit",
   "dependencies": {
     "hubot": "^2.12.0",
     "hubot-cron": "^0.2.9",
