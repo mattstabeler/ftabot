@@ -13,7 +13,7 @@ module.exports = (robot) ->
 
    	alone = res.match[1]
     res.send "I'm so lonely!"
-   	res.send "/giphy forever " + alone + ""
+   	#res.send "/giphy forever " + alone + ""
 
   robot.hear /hello/i, (res) ->
 
