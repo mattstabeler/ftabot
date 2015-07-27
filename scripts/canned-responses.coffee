@@ -29,3 +29,8 @@ module.exports = (robot) ->
     console.log(res);
 
     res.send "Debug"
+
+  robot.hear /fuck you/i, (res) ->
+
+    res.send "Im sorry you feel that way :("
+
