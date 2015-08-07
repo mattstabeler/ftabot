@@ -34,3 +34,6 @@ module.exports = (robot) ->
 
     res.send "Im sorry you feel that way :("
 
+  robot.hear /damn you/i, (res) ->
+
+    res.send "Im sorry you feel that way :("
